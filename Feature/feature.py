@@ -99,3 +99,4 @@ if __name__ == "__main__":
     print("Dependent output (with uppercase active):", dependent.apply("data", active_features={"uppercase"}))
     # if dependency not active, data is unchanged
     print("Dependent output (without dependencies):", dependent.apply("data", active_features=set()))
+    print('Welcome to myscript.py! as we are learning DevAsc course')
